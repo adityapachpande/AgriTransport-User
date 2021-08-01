@@ -117,7 +117,7 @@ class HomePage extends StatefulWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
 
-                              Text('Aditya\nPachpande', style: TextStyle(
+                              Text('USER\nNAME', style: TextStyle(
                                   fontSize: 20, fontFamily: 'Brand-Bold'),),
                               SizedBox(height: 5,),
                              // Text('View Profile'),
