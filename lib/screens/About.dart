@@ -8,7 +8,7 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final List<String> members = <String>['Aditya N. Pachpande', 'Harshada Chaudhary', 'Pooja Santosh Mali', 'Pornima S. Drakshe','Suraj A. Naphade', ];
+    final List<String> members = <String>['ABC', 'KLM', 'HIJ' ];
 
     return new Scaffold(
 
