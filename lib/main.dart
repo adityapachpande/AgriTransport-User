@@ -17,22 +17,22 @@ Future<void> main() async {
     name: 'db2',
     options: Platform.isIOS || Platform.isMacOS
         ? FirebaseOptions(
-      appId: '1:297855924061:ios:c6de2b69b03a5be8',
-      apiKey: 'AIzaSyD_shO5mfO9lhy2TVWhfo1VUmARKlG4suk',
+      appId: 'YOUR APP ID',
+      apiKey: 'YOUR API KEY',
       projectId: 'flutter-firebase-plugins',
-      messagingSenderId: '297855924061',
-      databaseURL: 'https://flutterfire-cd2f7.firebaseio.com',
+      messagingSenderId: 'ID',
+      databaseURL: 'DATABASE URL',
     )
         : FirebaseOptions(
-      appId: '1:1077846897323:android:d5fbc7f0d34c68e3cafdee',
-      apiKey: 'AIzaSyD5NuKqAzz2qlyqZq_sJ5ZXQeWAjgFl4Bk',
-      messagingSenderId: '297855924061',
+      appId: 'YOUR APP ID',
+      apiKey: 'YOUR API KEY',
+      messagingSenderId: 'ID',
       projectId: 'flutter-firebase-plugins',
-      databaseURL: 'https://agritransport-10f46-default-rtdb.firebaseio.com',
+      databaseURL: 'YOUR DATABASE URL',
     ),
   );
 
-  // currentFirebaseUser = await FirebaseAuth.instance.currentUser;
+  
 
   runApp(MyApp());
 }
