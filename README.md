@@ -8,9 +8,14 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Read Me
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Go to android/app/src/main/AndroidManifest.xml for android:value="YOUR KEY HERE"
+   and paste your api key here.
+   
+2. Do the same for AgriTransport-User/lib/screens/searchpage.dart and 
+   put your API key at static const API_KEY="YOUR KEY HERE".
+   
+3. AgriTransport-User/lib/main.dart in this file add the required credentials.
+
+4. Register your app on firebase and place the google-services.json file at AgriTransport-User/android/app/
