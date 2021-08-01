@@ -914,7 +914,7 @@ class _MapViewState extends State<MapView>  with TickerProviderStateMixin{
 
 class Var
 {
-  static const API_KEY = 'AIzaSyD5NuKqAzz2qlyqZq_sJ5ZXQeWAjgFl4Bk';
+  static const API_KEY = 'YOUR API KEY HERE';
 }
 
 
