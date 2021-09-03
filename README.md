@@ -1,6 +1,6 @@
 # agrii_ransport
 
-A new Flutter application for the Minor Project
+A Flutter Mobile Application.
 
 ## Getting Started
 
